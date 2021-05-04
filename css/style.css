@@ -1,0 +1,106 @@
+* {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+body { 
+  padding-right: 300px;
+  padding-left: 300px;
+  padding-top: 40px;
+}
+
+.header_style{
+    padding: 0px;
+}
+.carousel-inner {
+  height: 500px;
+}
+
+
+#carousel_slide_one {
+  background-image: url("../img/carousel_1.jpeg");
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+#carousel_slide_two {
+  background-image: url("../img/carousel_2.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+#carousel_slide_three {
+  background-image: url("../img/carousel_3.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+#carousel_slide_four {
+  background-image: url("../img/carousel_4.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+#carousel_slide_five {
+  background-image: url("../img/carousel_5.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width:2000px) {
+    body {
+        padding-right: 150px !important;
+        padding-left: 150px !important;
+    }
+}
+@media (max-width:1624px) {
+    body {
+        padding-right: 150px !important;
+        padding-left: 150px !important;
+    }
+}
+@media (max-width:1524px) {
+    body {
+        padding-right: 50px !important;
+        padding-left: 50px !important;
+    }
+}
+@media (max-width:992px) {
+    body {
+        padding-right: 25px !important;
+        padding-left: 25px !important;
+    }
+}
+@media (max-width:768px) {
+    body {
+        padding-top: 10px !important;
+        padding-right: 105px !important;
+        padding-left: 105px !important;
+    }
+    header > nav.navbar {
+        padding: 10px !important;
+    }
+}
+@media (max-width:568px) {
+    body {
+        padding-right: 25px !important;
+        padding-left: 25px !important;
+    }
+}
+@media (max-width:321px) {
+    body {
+        
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+}
