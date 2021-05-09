@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>seena</title>
+  </head>
+  <body>
+    <!-- ASK JACQUE ABOUT STICKY NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light position-sticky" id="nav">
+      <a class="navbar-brand" href="../seenanadimi.github.io/index.html"
+        >seena</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarNavAltMarkup"
+      >
+        <div class="navbar-nav">
+          <a
+            class="nav-item nav-link"
+            href="../seenanadimi.github.io/index.html"
+            >Home</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- ASK JACQUE ABOUT INDICATORS AND CONTROLS FOR CAROUSEL -->
+    <div class="container-fluid contact_wrapper">
+      <div class="container">
+        <div class="p-3 border border-dark rounded">
+          <form>
+            <div class="form-group">
+              <label for="nameInput">Name</label>
+              <input
+                id="nameInput"
+                type="text"
+                placeholder="Enter your name"
+                class="form-control"
+              />
+              <small class="form-text text-muted">This is required</small>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select class="form-control" id="subject">
+                <option value="inquiry">Inquiry</option>
+                <option value="questions" selected>Questions</option>
+                <option value="appointment">Appointment</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message"></label>
+              <textarea
+                id="message"
+                cols="30"
+                rows="4"
+                class="form-control"
+                placeholder="Your message here"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn border btn-block">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="container-fluid footer_style d-flex justify-content-center align-items-center"
+      id="footer_tag"
+    >
+      <div class="d-flex align-items-center flex-column">
+        <h2 class="py-4">CONTACT</h2>
+        <div class="py-4">
+          <a href="https://www.twitter.com/"
+            ><i class="fab fa-twitter fa-2x mx-2 circle_icon"></i></a
+          ><a href="https://www.facebook.com/"
+            ><i class="fab fa-facebook-f fa-2x mx-2 circle_icon"></i></a
+          ><a href="https://www.instagram.com/"
+            ><i class="fab fa-instagram fa-2x mx-2 circle_icon"></i
+          ></a>
+          <a href="mailto:seenanadimi@gmail.com"
+            ><i class="fas fa-paper-plane fa-2x mx-2 circle_icon"></i
+          ></a>
+        </div>
+        <p>
+          &#169; Untitled. Design <span><a href="#">templated</a></span> Images:
+          <span><a href="https://unsplash.com/">Unsplash</a></span>
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
