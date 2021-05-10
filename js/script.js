@@ -1,24 +1,70 @@
-$(document).ready(function () {
-  //change the integers below to match the height of your upper div, which I called
-  //banner.  Just add a 1 to the last number.  console.log($(window).scrollTop())
-  //to figure out what the scroll position is when exactly you want to fix the nav
-  //bar or div or whatever.  I stuck in the console.log for you.  Just remove when
-  //you know the position.
-  $(window).scroll(function () {
-    console.log($(window).scrollTop());
 
-    if ($(window).scrollTop() > 1200) {
-      $("#nav_bar").addClass("navbar-fixed-top");
+function hideShowText() {
+  $(".img_text").hide();
+  $(".img_carousel").hover(
+    function () {
+      $(".img_carousel").hide();
+      $(".img_text").show();
+    },
+    function () {
+      $(".img_text").hide();
+      $(".img_carousel").show();
     }
+  );
+};
 
-    if ($(window).scrollTop() < 1200) {
-      $("#nav_bar").removeClass("navbar-fixed-top");
+
+function hideShowText_1() {
+  $(".img_text_1").hide();
+  $(".img_carousel_1").hover(
+    function () {
+      $(".img_carousel_1").hide();
+      $(".img_text_1").show();
+    },
+    function () {
+      $(".img_text_1").hide();
+      $(".img_carousel_1").show();
     }
-  });
-});
+  );
+};
 
+function hideShowText_2() {
+  $(".img_text_2").hide();
+  $(".img_carousel_2").hover(
+    function () {
+      $(".img_carousel_2").hide();
+      $(".img_text_2").show();
+    },
+    function () {
+      $(".img_text_2").hide();
+      $(".img_carousel_2").show();
+    }
+  );
+};
 
+function hideShowText_3() {
+  $(".img_text_3").hide();
+  $(".img_carousel_3").hover(
+    function () {
+      $(".img_carousel_3").hide();
+      $(".img_text_3").show();
+    },
+    function () {
+      $(".img_text_3").hide();
+      $(".img_carousel_3").show();
+    }
+  );
+};
 
 $(".carousel").carousel({
-  interval: 1000,
+  interval: 10000,
+});
+
+$(document).ready(function () {
+  hideShowText();
+  hideShowText_1();
+  hideShowText_2();
+  hideShowText_3();
+  carousel();
+  
 });
