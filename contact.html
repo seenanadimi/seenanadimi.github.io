@@ -13,18 +13,24 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-
     <title>seena</title>
   </head>
-  <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light sticky" id="nav">
-      <a class="navbar-brand" href="index.html">seena</a>
+  <body class="bg-light">
+    <nav
+      class="navbar navbar-expand-sm navbar-light bg-light sticky-top"
+      id="nav"
+    >
+      <a class="navbar-brand" href="index.html">he/him</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -37,39 +43,51 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div
-        class="collapse navbar-collapse justify-content-end"
+        class="collapse navbar-collapse justify-content-end sticky-top"
         id="navbarNavAltMarkup"
       >
         <div class="navbar-nav">
-          <a
-            class="nav-item nav-link"
-            href="../seenanadimi.github.io/index.html"
-            >Home</a
-          >
+          <a class="nav-item nav-link" href="index.html">home</a>
         </div>
       </div>
     </nav>
-  
-    <div class="container-fluid contact_wrapper">
+
+    <div
+      class="container-fluid contact_wrapper bg-white"
+      style="font-family: 'Source Code Pro', monospace"
+    >
       <div class="container">
+        <h1>contact me</h1>
         <div class="p-3 border border-dark rounded">
           <form>
             <div class="form-group">
-              <label for="nameInput">Name</label>
+              <label for="nameInput">name</label>
               <input
                 id="nameInput"
                 type="text"
                 placeholder="Enter your name"
                 class="form-control"
               />
-              <small class="form-text text-muted">This is required</small>
+              <small class="form-text text-muted">this is required</small>
             </div>
             <div class="form-group">
-              <label for="subject">Subject</label>
+              <label for="exampleInputEmail1">email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >we'll never share your email with anyone else.</small
+              >
+            </div>
+            <div class="form-group">
+              <label for="subject">subject</label>
               <select class="form-control" id="subject">
-                <option value="inquiry">Inquiry</option>
-                <option value="questions" selected>Questions</option>
-                <option value="appointment">Appointment</option>
+                <option value="inquiry">questions</option>
+                <option value="questions" selected>concerns</option>
+                <option value="appointment">comments</option>
               </select>
             </div>
             <div class="form-group">
@@ -82,17 +100,26 @@
                 placeholder="Your message here"
               ></textarea>
             </div>
-            <button type="submit" class="btn border btn-block">Send</button>
+            <button type="submit" class="btn btn-dark border btn-block">
+              send
+            </button>
           </form>
         </div>
       </div>
     </div>
     <footer
-      class="container-fluid footer_style d-flex justify-content-center align-items-center"
+      class="
+        container-fluid
+        footer_style
+        d-flex
+        justify-content-center
+        align-items-center
+        pt-5
+        pb-5
+      "
       id="footer_tag"
     >
       <div class="d-flex align-items-center flex-column">
-        <h2 class="py-4">CONTACT</h2>
         <div class="py-4 d-flex justify-content-center flex-wrap">
           <a href="https://www.twitter.com/"
             ><i class="fab fa-twitter fa-2x m-3 circle_icon"></i></a
@@ -105,10 +132,7 @@
             ><i class="fas fa-paper-plane fa-2x m-3 circle_icon"></i
           ></a>
         </div>
-        <p>
-          &#169; Untitled. Design <span><a href="#">templated</a></span> Images:
-          <span><a href="https://unsplash.com/">Unsplash</a></span>
-        </p>
+        <p>copyright &#169; 2021 ~ seena nadimi</p>
       </div>
     </footer>
 
