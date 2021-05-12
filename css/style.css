@@ -1,0 +1,107 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h4,
+p {
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h4,
+a {
+  font-family: "Source Code Pro", monospace;
+}
+
+/* header section */
+#home {
+  background: url(../img/Tiangong1_09Mar2018b.jpg) 50% 0 repeat-y fixed;
+  background-size: 100vw 100vh;
+  color: #ffffff;
+  height: 100vh;
+}
+
+#home ._chevron:hover {
+  /* background: #fff; */
+  color: lightgrey;
+  transition: all 0.4s ease-in-out;
+}
+
+/* main section */
+.carousel_h {
+  height: 65vh;
+}
+
+.carousel .carousel-indicators li {
+  background-color: #fff;
+  background-color: rgba(70, 70, 70, 0.25);
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #444;
+}
+
+.container {
+  text-align: start;
+}
+
+.carousel_wrapper {
+  height: 65vh;
+}
+
+/* carousel imgs */
+.carousel-item > a {
+  text-decoration: none !important;
+}
+
+.img_links {
+  text-decoration: none !important;
+}
+
+.img_links:hover {
+  color: black;
+}
+
+/* FOOTER */
+.footer_style {
+  height: 100%;
+  background-image: url(../img/Tiangong1_09Mar2018b.jpg);
+  margin: 0;
+  color: white;
+}
+.circle_icon {
+  background: lightgrey;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+  vertical-align: middle;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+footer i {
+  color: black;
+}
+
+footer i:hover {
+  color: white;
+}
+
+/* CONTACT SHEET */
+.contact_wrapper {
+  padding: 70px 0 90px 0;
+}
